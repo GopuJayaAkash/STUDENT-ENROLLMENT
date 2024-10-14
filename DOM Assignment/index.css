@@ -1,0 +1,224 @@
+body{
+    background-image: url(image.jpeg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
+    text-align: center;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sec{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div1{
+    width: 250px;
+    padding: 140px;
+    margin: 50px;
+
+}
+
+.form{
+    width: 100px;
+
+}
+
+label{
+    font-size: xx-large;
+    color: gold;
+}
+
+#btn{
+    font-size: xx-large;
+    padding: 15px;
+    margin: 35px;
+    border-radius: 20%;
+    cursor: pointer;
+    float: left;
+}
+
+.div2{
+    
+    max-height: 400px;
+    max-width: 100vh;
+    padding: 140px;
+    border:1px solid #ccc;
+    overflow-y: auto;
+    
+}
+
+.div{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100vh; 
+    max-height: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.names{
+    display: block;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-y: visible;
+    text-overflow: ellipsis;   
+}
+
+.ids{
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-y: visible;
+    text-overflow: ellipsis;   
+
+}
+.classes{
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-y: visible;
+    text-overflow: ellipsis;   
+
+}
+
+.rollnos{
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-y: visible;
+    text-overflow: ellipsis;   
+   
+}
+
+.emails{
+    display: block;
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-y: visible;
+    text-overflow: ellipsis;   
+
+}
+
+.reset{
+    display: block;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.delete{
+    display: block;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.hdiv .headings {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    width: 70vh;
+    border-bottom: 2px solid #ccc;
+}
+
+.heading-name, .heading-id, .heading-class, .heading-roll, .heading-email {
+    flex: 1;
+    text-align: center;
+}
+
+.hdiv .div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
